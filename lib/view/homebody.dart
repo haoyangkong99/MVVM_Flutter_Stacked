@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:mvvm_flutter_stacked/view/homeviewmodel.dart';
+import 'package:mvvm_flutter_stacked/viemodel/homeviewmodel.dart';
 import 'package:stacked/stacked.dart';
 
 class HomeBody extends StatefulWidget {
