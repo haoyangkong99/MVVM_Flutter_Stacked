@@ -28,7 +28,7 @@ class _NewsState extends State<News> {
                 itemBuilder: ((context, index) {
                   return InkWell(
                     child: ListTile(
-                      title: Text(list![index].title),
+                      title: Text(list[index].title),
                     ),
                   );
                 }),
