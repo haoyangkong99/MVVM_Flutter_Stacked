@@ -39,7 +39,12 @@ class _HomeBodyState extends State<HomeBody> {
                   onPressed: () {
                     model.navigateTo();
                   },
-                  child: Text("Go to 2nd screen"))
+                  child: Text("Go to 2nd screen")),
+              TextButton(
+                  onPressed: () {
+                    model.navigateToNews();
+                  },
+                  child: Text("Go to News API screen"))
             ],
           );
         },

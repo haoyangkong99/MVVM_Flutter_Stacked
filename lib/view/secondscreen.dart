@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:mvvm_flutter_stacked/view/secondscreenviewmode.dart';
+import 'package:mvvm_flutter_stacked/viemodel/secondscreenviewmode.dart';
 import 'package:stacked/stacked.dart';
 
 class SecondScreen extends StatelessWidget {

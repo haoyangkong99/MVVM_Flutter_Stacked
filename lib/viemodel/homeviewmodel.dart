@@ -22,4 +22,8 @@ class HomeViewModel extends BaseViewModel {
   void navigateTo() {
     _NavigationService.navigateTo(Routes.secondScreen);
   }
+
+  void navigateToNews() {
+    _NavigationService.navigateTo(Routes.news);
+  }
 }
